@@ -1,0 +1,24 @@
+{
+  "name": "review-scraper",
+  "version": "1.0.0",
+  "description": "Scrapes reviews from various sources and returns json",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "web scraping",
+    "scraping",
+    "google reviews",
+    "reviews",
+    "google places"
+  ],
+  "author": "David Miller",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^19.2.1",
+    "puppeteer-extra": "^3.3.4",
+    "puppeteer-extra-plugin-stealth": "^2.11.1"
+  }
+}
